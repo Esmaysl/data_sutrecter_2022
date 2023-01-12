@@ -4,7 +4,7 @@ public class Btree {
         root=null;}
       Node newNode(int data) {  //newnode fonksiyonu oluşturulur
         root=new Node(data);
-        System.out.println(data + "agaca eklendi");
+        System.out.println(data + " agaca eklendi");
         return root;
         }
         Node insert(Node root, int data){
